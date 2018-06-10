@@ -10,12 +10,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score;
+    int score = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        score = 0;
+
 
         addListenertOnButton();
     }
@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
                 if (score != -1) {
                     if (score >= 70) {
-                        Toast.makeText(MainActivity.this, "You get " + score + ". Congratulations!", Toast.LENGTH_LONG);
+                        Toast.makeText(MainActivity.this, "You get " + score + ". Congratulations!", Toast.LENGTH_LONG).show();
                     }
                     else {
-                        Toast.makeText(MainActivity.this, "You get " + score + ". Try Again!", Toast.LENGTH_LONG);
+                        Toast.makeText(MainActivity.this, "You get " + score + ". Try Again!", Toast.LENGTH_LONG).show();
                     }
                 }
             }
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 || Id9 == -1
                 || Id10 == -1) {
             tmp = -1;
-            Toast.makeText(MainActivity.this, "Please answer all of them", Toast.LENGTH_LONG);
+            Toast.makeText(MainActivity.this, "Please answer all of them", Toast.LENGTH_LONG).show();
             return tmp;
         }
         else {
