@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     int score = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 if (score != -1) {
                     if (score >= 70) {
                         Toast.makeText(MainActivity.this, "You get " + score + ". Congratulations!", Toast.LENGTH_LONG).show();
-                    }
-                    else {
+                    } else {
                         Toast.makeText(MainActivity.this, "You get " + score + ". Try Again!", Toast.LENGTH_LONG).show();
                     }
                 }
@@ -75,8 +75,7 @@ public class MainActivity extends AppCompatActivity {
             tmp = -1;
             Toast.makeText(MainActivity.this, "Please answer all of them", Toast.LENGTH_LONG).show();
             return tmp;
-        }
-        else {
+        } else {
             RadioButton but1 = (RadioButton) findViewById(Id1);
             RadioButton but2 = (RadioButton) findViewById(Id2);
             RadioButton but3 = (RadioButton) findViewById(Id3);

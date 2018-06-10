@@ -14,30 +14,31 @@
 
         <!-- QUESTION 1 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sumber utama energi bagi tubuh adalah"
                 android:layout_toRightOf="@id/no1"
-                style="@style/Question_View"/>
+                android:text="Sumber utama energi bagi tubuh adalah" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/carb"
@@ -54,369 +55,378 @@
 
         <!-- QUESTION 2 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Semakin tua seseorang, maka kebutuhan energinya pun akan semakin meningkat"
                 android:layout_toRightOf="@id/no2"
-                style="@style/Question_View"/>
+                android:text="Semakin tua seseorang, maka kebutuhan energinya pun akan semakin meningkat" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q2Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q2Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <!-- QUESTION 3 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Daging sapi mengandung lebih banyak protein dari pada ikan"
                 android:layout_toRightOf="@id/no3"
-                style="@style/Question_View"/>
+                android:text="Daging sapi mengandung lebih banyak protein dari pada ikan" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q3Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q3Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <!-- QUESTION 4 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Makanan sehat harus mengikutsertakan daging yang banyak"
                 android:layout_toRightOf="@id/no4"
-                style="@style/Question_View"/>
+                android:text="Makanan sehat harus mengikutsertakan daging yang banyak" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q4Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q4Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <!-- QUESTION 5 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Agar sehat sepanjang harinya, makanlah sebutir telur setiap pagi"
                 android:layout_toRightOf="@id/no5"
-                style="@style/Question_View"/>
+                android:text="Agar sehat sepanjang harinya, makanlah sebutir telur setiap pagi" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q5Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q5Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <!-- QUESTION 6 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kolesterol dalam telur ayam terdapat di :"
                 android:layout_toRightOf="@id/no6"
-                style="@style/Question_View"/>
+                android:text="Kolesterol dalam telur ayam terdapat di :" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/whiteEgg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bagian putih telur"/>
+                android:text="Bagian putih telur" />
 
             <RadioButton
                 android:id="@+id/yolk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bagian kuning telur"/>
+                android:text="Bagian kuning telur" />
         </RadioGroup>
 
         <!-- QUESTION 7 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="7)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Manakah yang mengandung kolesterol?"
                 android:layout_toRightOf="@id/no7"
-                style="@style/Question_View"/>
+                android:text="Manakah yang mengandung kolesterol?" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/beans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kacang tanah"/>
+                android:text="Kacang tanah" />
 
             <RadioButton
                 android:id="@+id/chick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ayam"/>
+                android:text="Ayam" />
         </RadioGroup>
 
         <!-- QUESTION 8 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ikan tidak mengandung kolesterol"
                 android:layout_toRightOf="@id/no8"
-                style="@style/Question_View"/>
+                android:text="Ikan tidak mengandung kolesterol" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q8Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q8Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <!-- QUESTION 9 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="9)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vitamin C perlu dikonsumsi setiap hari"
                 android:layout_toRightOf="@id/no9"
-                style="@style/Question_View"/>
+                android:text="Vitamin C perlu dikonsumsi setiap hari" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q9Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q9Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <!-- QUESTION 10 -->
         <RelativeLayout
+            style="@style/Question_Style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Question_Style">
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/no10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="10)"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <TextView
+                style="@style/Question_View"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vitamin mengandung kalori"
                 android:layout_toRightOf="@id/no10"
-                style="@style/Question_View"/>
+                android:text="Vitamin mengandung kalori" />
         </RelativeLayout>
 
         <RadioGroup
             android:id="@+id/rg10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/q10Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Benar"/>
+                android:text="Benar" />
 
             <RadioButton
                 android:id="@+id/q10Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salah"/>
+                android:text="Salah" />
         </RadioGroup>
 
         <Button
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:text="Submit" />
     </LinearLayout>
 </ScrollView>
