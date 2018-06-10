@@ -27,7 +27,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q1"
+                android:text="Sumber utama energi bagi tubuh adalah"
                 android:layout_toRightOf="@id/no1"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -42,13 +42,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Karbohidrat"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Protein"/>
         </RadioGroup>
 
         <!-- QUESTION 2 -->
@@ -66,7 +66,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q2"
+                android:text="Semakin tua seseorang, maka kebutuhan energinya pun akan semakin meningkat"
                 android:layout_toRightOf="@id/no2"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -81,13 +81,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
 
         <!-- QUESTION 3 -->
@@ -105,7 +105,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q3"
+                android:text="Daging sapi mengandung lebih banyak protein dari pada ikan"
                 android:layout_toRightOf="@id/no3"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -120,13 +120,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
 
         <!-- QUESTION 4 -->
@@ -144,7 +144,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q4"
+                android:text="Makanan sehat harus mengikutsertakan daging yang banyak"
                 android:layout_toRightOf="@id/no4"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -159,13 +159,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
 
         <!-- QUESTION 5 -->
@@ -183,7 +183,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q5"
+                android:text="Agar sehat sepanjang harinya, makanlah sebutir telur setiap pagi"
                 android:layout_toRightOf="@id/no5"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -198,13 +198,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
 
         <!-- QUESTION 6 -->
@@ -222,7 +222,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q6"
+                android:text="Kolesterol dalam telur ayam terdapat di :"
                 android:layout_toRightOf="@id/no6"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -237,13 +237,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Bagian putih telur"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Bagian kuning telur"/>
         </RadioGroup>
 
         <!-- QUESTION 7 -->
@@ -261,7 +261,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q7"
+                android:text="Manakah yang mengandung kolesterol?"
                 android:layout_toRightOf="@id/no7"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -276,13 +276,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Kacang tanah"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Ayam"/>
         </RadioGroup>
 
         <!-- QUESTION 8 -->
@@ -300,7 +300,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q8"
+                android:text="Ikan tidak mengandung kolesterol"
                 android:layout_toRightOf="@id/no8"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -315,13 +315,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
 
         <!-- QUESTION 9 -->
@@ -339,7 +339,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q9"
+                android:text="Vitamin C perlu dikonsumsi setiap hari"
                 android:layout_toRightOf="@id/no9"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -354,13 +354,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
 
         <!-- QUESTION 10 -->
@@ -378,7 +378,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Q10"
+                android:text="Vitamin mengandung kalori"
                 android:layout_toRightOf="@id/no10"
                 style="@style/Question_View"/>
         </RelativeLayout>
@@ -393,13 +393,13 @@
                 android:id=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op1"/>
+                android:text="Benar"/>
 
             <RadioButton
                 android:id="@+id/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="op2"/>
+                android:text="Salah"/>
         </RadioGroup>
     </LinearLayout>
 </ScrollView>
