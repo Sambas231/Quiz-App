@@ -40,13 +40,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/carb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Karbohidrat" />
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/prot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Protein" />
@@ -80,13 +80,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q2Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q2Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
@@ -120,13 +120,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q3Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q3Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
@@ -160,13 +160,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q4Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q4Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
@@ -200,13 +200,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q5Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q5Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
@@ -240,13 +240,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/whiteEgg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bagian putih telur"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/yolk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bagian kuning telur"/>
@@ -280,13 +280,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/beans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Kacang tanah"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/chick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ayam"/>
@@ -320,13 +320,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q8Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q8Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
@@ -360,13 +360,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q9Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q9Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
@@ -400,13 +400,13 @@
             android:layout_marginLeft="10dp">
 
             <RadioButton
-                android:id=""
+                android:id="@+id/q10Rig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Benar"/>
 
             <RadioButton
-                android:id="@+id/"
+                android:id="@+id/q10Wro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salah"/>
