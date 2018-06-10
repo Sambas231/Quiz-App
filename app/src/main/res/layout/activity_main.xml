@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- QUESTION 1 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q1"
+                android:layout_toRightOf="@id/no1"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 2 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2"
+                android:layout_toRightOf="@id/no2"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 3 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3"
+                android:layout_toRightOf="@id/no3"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 4 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q4"
+                android:layout_toRightOf="@id/no4"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 5 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q5"
+                android:layout_toRightOf="@id/no5"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 6 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q6"
+                android:layout_toRightOf="@id/no6"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 7 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q7"
+                android:layout_toRightOf="@id/no7"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 8 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q8"
+                android:layout_toRightOf="@id/no8"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 9 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q9"
+                android:layout_toRightOf="@id/no9"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+
+        <!-- QUESTION 10 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Question_Style">
+            <TextView
+                android:id="@+id/no10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10)"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q10"
+                android:layout_toRightOf="@id/no10"
+                style="@style/Question_View"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op1"/>
+
+            <RadioButton
+                android:id="@+id/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="op2"/>
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>
